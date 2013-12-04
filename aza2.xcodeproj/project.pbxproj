@@ -14,7 +14,6 @@
 		1489D1A6184FA016003208F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1489D1A5184FA016003208F9 /* main.m */; };
 		1489D1AA184FA016003208F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1489D1A9184FA016003208F9 /* AppDelegate.m */; };
 		1489D1AD184FA016003208F9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1489D1AB184FA016003208F9 /* Main_iPhone.storyboard */; };
-		1489D1B0184FA016003208F9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1489D1AE184FA016003208F9 /* Main_iPad.storyboard */; };
 		1489D1B3184FA016003208F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1489D1B2184FA016003208F9 /* ViewController.m */; };
 		1489D1B5184FA016003208F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1489D1B4184FA016003208F9 /* Images.xcassets */; };
 		1489D1BC184FA016003208F9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1489D1BB184FA016003208F9 /* XCTest.framework */; };
@@ -22,6 +21,8 @@
 		1489D1BE184FA016003208F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1489D19D184FA016003208F9 /* UIKit.framework */; };
 		1489D1C6184FA016003208F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1489D1C4184FA016003208F9 /* InfoPlist.strings */; };
 		1489D1C8184FA016003208F9 /* aza2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1489D1C7184FA016003208F9 /* aza2Tests.m */; };
+		1489D1D2184FA037003208F9 /* abstract.png in Resources */ = {isa = PBXBuildFile; fileRef = 1489D1D1184FA037003208F9 /* abstract.png */; };
+		14AED2E6184FAE070041DEA3 /* darkBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 14AED2E5184FAE070041DEA3 /* darkBlue.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +47,6 @@
 		1489D1A8184FA016003208F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1489D1A9184FA016003208F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1489D1AC184FA016003208F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		1489D1AF184FA016003208F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		1489D1B1184FA016003208F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1489D1B2184FA016003208F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1489D1B4184FA016003208F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +55,8 @@
 		1489D1C3184FA016003208F9 /* aza2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "aza2Tests-Info.plist"; sourceTree = "<group>"; };
 		1489D1C5184FA016003208F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1489D1C7184FA016003208F9 /* aza2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aza2Tests.m; sourceTree = "<group>"; };
+		1489D1D1184FA037003208F9 /* abstract.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = abstract.png; path = ../../abstract.png; sourceTree = "<group>"; };
+		14AED2E5184FAE070041DEA3 /* darkBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = darkBlue.png; path = ../../darkBlue.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +119,8 @@
 				1489D1A8184FA016003208F9 /* AppDelegate.h */,
 				1489D1A9184FA016003208F9 /* AppDelegate.m */,
 				1489D1AB184FA016003208F9 /* Main_iPhone.storyboard */,
-				1489D1AE184FA016003208F9 /* Main_iPad.storyboard */,
+				14AED2E5184FAE070041DEA3 /* darkBlue.png */,
+				1489D1D1184FA037003208F9 /* abstract.png */,
 				1489D1B1184FA016003208F9 /* ViewController.h */,
 				1489D1B2184FA016003208F9 /* ViewController.m */,
 				1489D1B4184FA016003208F9 /* Images.xcassets */,
@@ -231,7 +234,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1489D1B0184FA016003208F9 /* Main_iPad.storyboard in Resources */,
+				14AED2E6184FAE070041DEA3 /* darkBlue.png in Resources */,
+				1489D1D2184FA037003208F9 /* abstract.png in Resources */,
 				1489D1B5184FA016003208F9 /* Images.xcassets in Resources */,
 				1489D1AD184FA016003208F9 /* Main_iPhone.storyboard in Resources */,
 				1489D1A4184FA016003208F9 /* InfoPlist.strings in Resources */,
@@ -292,14 +296,6 @@
 				1489D1AC184FA016003208F9 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		1489D1AE184FA016003208F9 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1489D1AF184FA016003208F9 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		1489D1C4184FA016003208F9 /* InfoPlist.strings */ = {
@@ -395,7 +391,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "aza2/aza2-Prefix.pch";
 				INFOPLIST_FILE = "aza2/aza2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -408,7 +406,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "aza2/aza2-Prefix.pch";
 				INFOPLIST_FILE = "aza2/aza2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -474,6 +474,7 @@
 				1489D1CD184FA016003208F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1489D1CE184FA016003208F9 /* Build configuration list for PBXNativeTarget "aza2Tests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +483,7 @@
 				1489D1D0184FA016003208F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,6 +18,25 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+    CGRect screenSize = [[UIScreen mainScreen] bounds];
+    CGFloat screenWidth = screenSize.size.height;
+    // have to use height because of screen orientation
+    
+    
+    UILabel *myLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, screenWidth, 240)];
+                        
+    myLabel.text = @"AZA";
+    myLabel.textColor = [UIColor colorWithWhite:1 alpha:1];
+    [myLabel setFont:[UIFont fontWithName:@"Chalkduster" size:24]];
+    
+    myLabel.textAlignment = NSTextAlignmentCenter;
+    
+    [self.view addSubview:myLabel];
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
