@@ -47,14 +47,24 @@
     
     
     
+    // pause button
     UIButton *pauseButton = [[UIButton alloc] initWithFrame:CGRectMake((screenWidth-screenWidth/22)/2, screenHeight-screenHeight/12, screenWidth/22, screenHeight/12)];
 
-    
     [pauseButton setImage:[UIImage imageNamed:@"pause.png"] forState:UIControlStateNormal];
     [pauseButton addTarget:self action:@selector(pauseTap:) forControlEvents:UIControlEventTouchUpInside];
-     
-     
+    
     [self.view addSubview:pauseButton];
+    
+    
+    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat: @"%@/HeavyHunter.mp3",[[NSBundle mainBundle] resourcePath]]];
+    NSError *error;
+    AVAudioPlayer *music2 = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+    music2.numberOfLoops = -1;
+    [music2 description];
+    
+
+    BOOL test = [music2 play];
+    NSLog(@"%d",test);
     
     
 }
