@@ -56,15 +56,16 @@
     [self.view addSubview:pauseButton];
     
     
-    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat: @"%@/HeavyHunter.mp3",[[NSBundle mainBundle] resourcePath]]];
-    NSError *error;
-    AVAudioPlayer *music2 = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
-    music2.numberOfLoops = -1;
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"HeavyHunter" ofType:@"mp3"]];
+    AVAudioPlayer *music2 = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+    
+    music2.volume = 1;
     [music2 description];
     
-
     BOOL test = [music2 play];
-    NSLog(@"%d",test);
+    BOOL falsed = NO;
+    
+    NSLog(@"%d and %d",test, falsed);
     
     
 }
