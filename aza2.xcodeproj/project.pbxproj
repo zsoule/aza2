@@ -12,6 +12,9 @@
 		144EC9801850343A00A45865 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 144EC97F1850343A00A45865 /* pause.png */; };
 		144EC9821850441200A45865 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144EC9811850441200A45865 /* AVFoundation.framework */; };
 		144EC9851850465F00A45865 /* HeavyHunter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 144EC9841850465F00A45865 /* HeavyHunter.mp3 */; };
+		144ECC331850740F00A45865 /* HeavyHunter.wav in Resources */ = {isa = PBXBuildFile; fileRef = 144ECC321850740F00A45865 /* HeavyHunter.wav */; };
+		144ECC351850764700A45865 /* heavyBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 144ECC341850764700A45865 /* heavyBackground.jpg */; };
+		148415ED1850784900A3FE07 /* circlefilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 148415EC1850784900A3FE07 /* circlefilled.png */; };
 		1489D19A184FA016003208F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1489D199184FA016003208F9 /* Foundation.framework */; };
 		1489D19C184FA016003208F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1489D19B184FA016003208F9 /* CoreGraphics.framework */; };
 		1489D19E184FA016003208F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1489D19D184FA016003208F9 /* UIKit.framework */; };
@@ -28,6 +31,7 @@
 		1489D1C8184FA016003208F9 /* aza2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1489D1C7184FA016003208F9 /* aza2Tests.m */; };
 		1489D1D2184FA037003208F9 /* abstract.png in Resources */ = {isa = PBXBuildFile; fileRef = 1489D1D1184FA037003208F9 /* abstract.png */; };
 		14AED2E6184FAE070041DEA3 /* darkBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 14AED2E5184FAE070041DEA3 /* darkBlue.png */; };
+		14E297C8185079A600C1D2D3 /* button.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E297C7185079A600C1D2D3 /* button.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,9 @@
 		144EC97F1850343A00A45865 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = ../../pause.png; sourceTree = "<group>"; };
 		144EC9811850441200A45865 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		144EC9841850465F00A45865 /* HeavyHunter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = HeavyHunter.mp3; path = ../../HeavyHunter.mp3; sourceTree = "<group>"; };
+		144ECC321850740F00A45865 /* HeavyHunter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HeavyHunter.wav; sourceTree = "<group>"; };
+		144ECC341850764700A45865 /* heavyBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heavyBackground.jpg; sourceTree = "<group>"; };
+		148415EC1850784900A3FE07 /* circlefilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circlefilled.png; sourceTree = "<group>"; };
 		1489D196184FA016003208F9 /* aza2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aza2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1489D199184FA016003208F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1489D19B184FA016003208F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -68,6 +75,8 @@
 		1489D1C7184FA016003208F9 /* aza2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aza2Tests.m; sourceTree = "<group>"; };
 		1489D1D1184FA037003208F9 /* abstract.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = abstract.png; path = ../../abstract.png; sourceTree = "<group>"; };
 		14AED2E5184FAE070041DEA3 /* darkBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = darkBlue.png; path = ../../darkBlue.png; sourceTree = "<group>"; };
+		14E297C6185079A600C1D2D3 /* button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = button.h; sourceTree = "<group>"; };
+		14E297C7185079A600C1D2D3 /* button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = button.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,10 +139,15 @@
 			isa = PBXGroup;
 			children = (
 				1489D1A8184FA016003208F9 /* AppDelegate.h */,
+				148415EC1850784900A3FE07 /* circlefilled.png */,
 				1489D1A9184FA016003208F9 /* AppDelegate.m */,
 				1489D1AB184FA016003208F9 /* Main_iPhone.storyboard */,
+				144ECC341850764700A45865 /* heavyBackground.jpg */,
+				144ECC321850740F00A45865 /* HeavyHunter.wav */,
 				144EC9781850254100A45865 /* Song2.h */,
 				144EC9791850254100A45865 /* Song2.m */,
+				14E297C6185079A600C1D2D3 /* button.h */,
+				14E297C7185079A600C1D2D3 /* button.m */,
 				144EC9841850465F00A45865 /* HeavyHunter.mp3 */,
 				144EC97F1850343A00A45865 /* pause.png */,
 				144EC97A1850254100A45865 /* Song2.xib */,
@@ -253,11 +267,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				144EC9851850465F00A45865 /* HeavyHunter.mp3 in Resources */,
+				144ECC351850764700A45865 /* heavyBackground.jpg in Resources */,
 				144EC97C1850254100A45865 /* Song2.xib in Resources */,
 				14AED2E6184FAE070041DEA3 /* darkBlue.png in Resources */,
 				144EC9801850343A00A45865 /* pause.png in Resources */,
+				148415ED1850784900A3FE07 /* circlefilled.png in Resources */,
 				1489D1D2184FA037003208F9 /* abstract.png in Resources */,
 				1489D1B5184FA016003208F9 /* Images.xcassets in Resources */,
+				144ECC331850740F00A45865 /* HeavyHunter.wav in Resources */,
 				1489D1AD184FA016003208F9 /* Main_iPhone.storyboard in Resources */,
 				1489D1A4184FA016003208F9 /* InfoPlist.strings in Resources */,
 			);
@@ -279,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1489D1B3184FA016003208F9 /* ViewController.m in Sources */,
+				14E297C8185079A600C1D2D3 /* button.m in Sources */,
 				144EC97B1850254100A45865 /* Song2.m in Sources */,
 				1489D1AA184FA016003208F9 /* AppDelegate.m in Sources */,
 				1489D1A6184FA016003208F9 /* main.m in Sources */,

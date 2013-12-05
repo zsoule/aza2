@@ -12,11 +12,8 @@
 
 @interface Song2 : UIViewController
 
+@property (nonatomic, retain) AVAudioPlayer *player;
 
 -(IBAction)pauseTap:(id)sender;
 
-
 @end
-
-
-
