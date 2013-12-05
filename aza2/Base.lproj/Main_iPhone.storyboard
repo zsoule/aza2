@@ -122,40 +122,40 @@
             </objects>
             <point key="canvasLocation" x="1121" y="75"/>
         </scene>
-        <!--Song1-->
+        <!--Song2-->
         <scene sceneID="Lwv-8g-2gA">
             <objects>
-                <viewController id="HDo-oc-Bym" customClass="Song1" sceneMemberID="viewController">
+                <viewController id="HDo-oc-Bym" customClass="Song2" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="hCw-z6-eE6"/>
-                        <viewControllerLayoutGuide type="bottom" id="MQS-DS-YdA"/>
+                        <viewControllerLayoutGuide type="top" id="PSV-JY-Vib"/>
+                        <viewControllerLayoutGuide type="bottom" id="lmA-hs-6Fo"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="D54-Zx-l8c">
+                    <view key="view" contentMode="scaleToFill" id="1HL-uX-xup">
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8eq-oI-PNT" userLabel="Pause">
-                                <rect key="frame" x="243" y="70" width="82" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="roV-25-4Yb">
+                                <rect key="frame" x="137" y="398" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Pause">
-                                    <color key="titleColor" red="0.019607843831181526" green="0.015686275437474251" blue="0.0078431377187371254" alpha="1" colorSpace="deviceRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYZ-cb-zRt">
+                                <rect key="frame" x="261" y="163" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="8eq-oI-PNT" firstAttribute="top" secondItem="hCw-z6-eE6" secondAttribute="bottom" constant="70" id="QJL-u7-cL1"/>
-                            <constraint firstAttribute="trailing" secondItem="8eq-oI-PNT" secondAttribute="trailing" constant="243" id="XMW-cq-PzR"/>
-                            <constraint firstItem="8eq-oI-PNT" firstAttribute="leading" secondItem="D54-Zx-l8c" secondAttribute="leading" constant="243" id="v79-5s-UBi"/>
-                        </constraints>
+                        <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <connections>
-                        <outlet property="view" destination="8eq-oI-PNT" id="ddO-hO-Vgb"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6wd-ul-ifc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
