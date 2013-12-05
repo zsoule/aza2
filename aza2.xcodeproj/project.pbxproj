@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		144EC97518501CA900A45865 /* Song1.m in Sources */ = {isa = PBXBuildFile; fileRef = 144EC97418501CA900A45865 /* Song1.m */; };
+		144EC97718501E8100A45865 /* HeavyHunter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 144EC97618501E8100A45865 /* HeavyHunter.mp3 */; };
 		1489D19A184FA016003208F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1489D199184FA016003208F9 /* Foundation.framework */; };
 		1489D19C184FA016003208F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1489D19B184FA016003208F9 /* CoreGraphics.framework */; };
 		1489D19E184FA016003208F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1489D19D184FA016003208F9 /* UIKit.framework */; };
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		144EC97318501CA900A45865 /* Song1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song1.h; sourceTree = "<group>"; };
+		144EC97418501CA900A45865 /* Song1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song1.m; sourceTree = "<group>"; };
+		144EC97618501E8100A45865 /* HeavyHunter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = HeavyHunter.mp3; path = ../../HeavyHunter.mp3; sourceTree = "<group>"; };
 		1489D196184FA016003208F9 /* aza2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aza2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1489D199184FA016003208F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1489D19B184FA016003208F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,12 +122,15 @@
 			isa = PBXGroup;
 			children = (
 				1489D1A8184FA016003208F9 /* AppDelegate.h */,
+				144EC97618501E8100A45865 /* HeavyHunter.mp3 */,
 				1489D1A9184FA016003208F9 /* AppDelegate.m */,
 				1489D1AB184FA016003208F9 /* Main_iPhone.storyboard */,
 				14AED2E5184FAE070041DEA3 /* darkBlue.png */,
 				1489D1D1184FA037003208F9 /* abstract.png */,
 				1489D1B1184FA016003208F9 /* ViewController.h */,
 				1489D1B2184FA016003208F9 /* ViewController.m */,
+				144EC97318501CA900A45865 /* Song1.h */,
+				144EC97418501CA900A45865 /* Song1.m */,
 				1489D1B4184FA016003208F9 /* Images.xcassets */,
 				1489D1A0184FA016003208F9 /* Supporting Files */,
 			);
@@ -234,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144EC97718501E8100A45865 /* HeavyHunter.mp3 in Resources */,
 				14AED2E6184FAE070041DEA3 /* darkBlue.png in Resources */,
 				1489D1D2184FA037003208F9 /* abstract.png in Resources */,
 				1489D1B5184FA016003208F9 /* Images.xcassets in Resources */,
@@ -259,6 +268,7 @@
 			files = (
 				1489D1B3184FA016003208F9 /* ViewController.m in Sources */,
 				1489D1AA184FA016003208F9 /* AppDelegate.m in Sources */,
+				144EC97518501CA900A45865 /* Song1.m in Sources */,
 				1489D1A6184FA016003208F9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
