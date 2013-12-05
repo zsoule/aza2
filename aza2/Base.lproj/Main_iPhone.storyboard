@@ -21,8 +21,8 @@
                                 <rect key="frame" x="-74" y="-39" width="677" height="369"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HcI-VX-JbN" userLabel="Begin">
-                                <rect key="frame" x="0.0" y="164" width="581" height="63"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HcI-VX-JbN" userLabel="Begin">
+                                <rect key="frame" x="173" y="175" width="222" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="18"/>
                                 <state key="normal" title="Begin">
@@ -35,6 +35,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="HcI-VX-JbN" secondAttribute="trailing" constant="173" id="O8J-4j-uVD"/>
+                            <constraint firstItem="HcI-VX-JbN" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="173" id="axe-fc-ckh"/>
+                        </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
@@ -42,6 +46,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="508" y="75"/>
         </scene>
         <!--View Controller - SongSelection-->
         <scene sceneID="qbS-C2-7t7">
@@ -56,11 +61,11 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="darkBlue.png" translatesAutoresizingMaskIntoConstraints="NO" id="phD-iu-c2d">
-                                <rect key="frame" x="-53" y="-20" width="646" height="350"/>
+                                <rect key="frame" x="-8" y="-6" width="646" height="350"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9N7-8V-TUA">
-                                <rect key="frame" x="238" y="140" width="64" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9N7-8V-TUA">
+                                <rect key="frame" x="190" y="145" width="189" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="15"/>
                                 <state key="normal" title="Song 2">
@@ -68,8 +73,8 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WY2-bn-LOq">
-                                <rect key="frame" x="238" y="178" width="64" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WY2-bn-LOq">
+                                <rect key="frame" x="190" y="183" width="189" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="15"/>
                                 <state key="normal" title="Song 3">
@@ -77,8 +82,8 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDz-iM-wTD">
-                                <rect key="frame" x="238" y="102" width="64" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDz-iM-wTD">
+                                <rect key="frame" x="174" y="107" width="220" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="15"/>
                                 <state key="normal" title="Song 1">
@@ -91,14 +96,23 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WY2-bn-LOq" firstAttribute="leading" secondItem="IZo-0Q-NM0" secondAttribute="leading" constant="176" id="94U-FE-gMR"/>
+                            <constraint firstAttribute="trailing" secondItem="yDz-iM-wTD" secondAttribute="trailing" constant="188" id="KIs-uj-j7C"/>
+                            <constraint firstAttribute="trailing" secondItem="9N7-8V-TUA" secondAttribute="trailing" constant="203" id="Ng8-2p-L5I"/>
+                            <constraint firstItem="9N7-8V-TUA" firstAttribute="leading" secondItem="IZo-0Q-NM0" secondAttribute="leading" constant="176" id="eOC-BK-H2o"/>
+                            <constraint firstItem="yDz-iM-wTD" firstAttribute="leading" secondItem="IZo-0Q-NM0" secondAttribute="leading" constant="160" id="yYm-ks-grh"/>
+                            <constraint firstAttribute="trailing" secondItem="WY2-bn-LOq" secondAttribute="trailing" constant="203" id="zdr-XZ-9qZ"/>
+                        </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Cv-fe-HLw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="670" y="196"/>
+            <point key="canvasLocation" x="1121" y="75"/>
         </scene>
         <!--View Controller - Song1-->
         <scene sceneID="Lwv-8g-2gA">
@@ -119,7 +133,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6wd-ul-ifc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1461" y="-220"/>
+            <point key="canvasLocation" x="1782" y="-143"/>
         </scene>
     </scenes>
     <resources>
