@@ -14,6 +14,7 @@
 
 @property (nonatomic, retain) AVAudioPlayer *player;
 @property (weak, nonatomic) IBOutlet UIButton *testbutton;
+@property (weak, nonatomic) IBOutlet UIButton *button1;
 
 - (IBAction)pauseTap:(id)sender;
 

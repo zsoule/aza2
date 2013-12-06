@@ -17,6 +17,7 @@
 @implementation Song2
 
 @synthesize testbutton;
+@synthesize button1;
 
 @synthesize player;
 
@@ -48,7 +49,11 @@ bool paused = NO;
 
     [pauseButton setImage:[UIImage imageNamed:@"pause.png"] forState:UIControlStateNormal];
     [pauseButton addTarget:self action:@selector(pauseTap:) forControlEvents:UIControlEventTouchUpInside];
+    
+    // create even handler for disappearing button
     [testbutton addTarget:self action:@selector(testButtonClick:) forControlEvents:(UIControlEvents)UIControlEventTouchDown];
+    
+    [testbutton addTarget:self action:@selector(button1Click:) forControlEvents:(UIControlEvents)UIControlEventTouchDown];
     
     [self.view addSubview:pauseButton];
     
@@ -69,6 +74,10 @@ bool paused = NO;
 
 -  (void)testButtonClick:(id)sender {
     [[self testbutton] setHidden:YES];
+}
+
+-  (void)button1Click:(id)sender {
+    [[self button1] setHidden:YES];
 }
 
 -(void)pauseTap:(id)sender

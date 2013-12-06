@@ -175,6 +175,7 @@
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
+                        <outlet property="button1" destination="mV7-Bv-NaB" id="344-st-bVK"/>
                         <outlet property="testbutton" destination="Ov9-SN-5M4" id="97S-0p-39e"/>
                     </connections>
                 </viewController>
