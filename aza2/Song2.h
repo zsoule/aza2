@@ -13,7 +13,8 @@
 @interface Song2 : UIViewController
 
 @property (nonatomic, retain) AVAudioPlayer *player;
+@property (weak, nonatomic) IBOutlet UIButton *testbutton;
 
--(IBAction)pauseTap:(id)sender;
+- (IBAction)pauseTap:(id)sender;
 
 @end

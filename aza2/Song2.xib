@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Song2">
             <connections>
+                <outlet property="testbutton" destination="QaC-2o-5KL" id="wcS-9M-tX2"/>
                 <outlet property="view" destination="puB-Id-haQ" id="Et0-ov-olE"/>
             </connections>
         </placeholder>
@@ -30,12 +31,23 @@
                     </state>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qyz-V9-zwV" customClass="button1">
-                    <rect key="frame" x="53" y="145" width="30" height="30"/>
+                    <rect key="frame" x="222" y="140" width="40" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="1" backgroundImage="circlefilled.png">
+                    <state key="normal" backgroundImage="circlefilled.png">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QaC-2o-5KL">
+                    <rect key="frame" x="137" y="65" width="211" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Test Button!!!">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="testButtonPress:" destination="-1" eventType="touchUpInside" id="Zgq-UA-bJi"/>
+                        <action selector="testbutton:" destination="-1" eventType="touchUpInside" id="VYG-yZ-BHX"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

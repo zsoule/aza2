@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 Zack. All rights reserved.
 //
 
+#import "button.h"
 #import "Song2.h"
 #import <AVFoundation/AVFoundation.h>
 
@@ -13,8 +14,9 @@
 
 @end
 
-
 @implementation Song2
+
+@synthesize testbutton;
 
 @synthesize player;
 
@@ -34,6 +36,7 @@ bool paused = NO;
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    
     // for positioning
     CGRect screenSize = [[UIScreen mainScreen] bounds];
     CGFloat screenWidth = screenSize.size.height;
@@ -45,6 +48,7 @@ bool paused = NO;
 
     [pauseButton setImage:[UIImage imageNamed:@"pause.png"] forState:UIControlStateNormal];
     [pauseButton addTarget:self action:@selector(pauseTap:) forControlEvents:UIControlEventTouchUpInside];
+    [testbutton addTarget:self action:@selector(testButtonClick:) forControlEvents:(UIControlEvents)UIControlEventTouchDown];
     
     [self.view addSubview:pauseButton];
     
@@ -55,13 +59,16 @@ bool paused = NO;
     AudioServicesCreateSystemSoundID((__bridge  CFURLRef) [NSURL fileURLWithPath:soundFile], & soundID);
     AudioServicesPlaySystemSound(soundID);
     
-    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-  (void)testButtonClick:(id)sender {
+    [[self testbutton] setHidden:YES];
 }
 
 -(void)pauseTap:(id)sender
@@ -75,5 +82,4 @@ bool paused = NO;
     }
     
 }
-
 @end
