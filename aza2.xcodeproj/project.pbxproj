@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		144EC97B1850254100A45865 /* Easy.m in Sources */ = {isa = PBXBuildFile; fileRef = 144EC9791850254100A45865 /* Easy.m */; };
-		144EC97C1850254100A45865 /* Song2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 144EC97A1850254100A45865 /* Song2.xib */; };
 		144EC9801850343A00A45865 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 144EC97F1850343A00A45865 /* pause.png */; };
 		144EC9821850441200A45865 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144EC9811850441200A45865 /* AVFoundation.framework */; };
 		144EC9851850465F00A45865 /* HeavyHunter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 144EC9841850465F00A45865 /* HeavyHunter.mp3 */; };
@@ -50,7 +49,6 @@
 /* Begin PBXFileReference section */
 		144EC9781850254100A45865 /* Easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Easy.h; sourceTree = "<group>"; };
 		144EC9791850254100A45865 /* Easy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Easy.m; sourceTree = "<group>"; };
-		144EC97A1850254100A45865 /* Song2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Song2.xib; sourceTree = "<group>"; };
 		144EC97F1850343A00A45865 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = ../../pause.png; sourceTree = "<group>"; };
 		144EC9811850441200A45865 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		144EC9841850465F00A45865 /* HeavyHunter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = HeavyHunter.mp3; path = ../../HeavyHunter.mp3; sourceTree = "<group>"; };
@@ -156,7 +154,6 @@
 				FAD11B221853BF0D008DD07D /* Medium.h */,
 				FAD11B231853BF0D008DD07D /* Medium.m */,
 				FAD11B271853C288008DD07D /* American-Patriot.jpg */,
-				144EC97A1850254100A45865 /* Song2.xib */,
 				1489D1B1184FA016003208F9 /* ViewController.h */,
 				1489D1B2184FA016003208F9 /* ViewController.m */,
 				144EC9841850465F00A45865 /* HeavyHunter.mp3 */,
@@ -281,7 +278,6 @@
 				FAD11B211853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg in Resources */,
 				FAD11B281853C288008DD07D /* American-Patriot.jpg in Resources */,
 				144ECC351850764700A45865 /* heavyBackground.jpg in Resources */,
-				144EC97C1850254100A45865 /* Song2.xib in Resources */,
 				14AED2E6184FAE070041DEA3 /* darkBlue.png in Resources */,
 				144EC9801850343A00A45865 /* pause.png in Resources */,
 				148415ED1850784900A3FE07 /* circlefilled.png in Resources */,
