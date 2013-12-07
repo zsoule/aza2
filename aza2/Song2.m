@@ -89,12 +89,12 @@ bool paused = NO;
     
     
     // hide all the buttons to start
-    [button1 setHidden:YES];
-    [button2 setHidden:YES];
-    [button3 setHidden:YES];
-    [button4 setHidden:YES];
-    [button5 setHidden:YES];
-    [button6 setHidden:YES];
+    [button1 setHidden:NO];
+    [button2 setHidden:NO];
+    [button3 setHidden:NO];
+    [button4 setHidden:NO];
+    [button5 setHidden:NO];
+    [button6 setHidden:NO];
     
     
     
@@ -134,27 +134,67 @@ bool paused = NO;
 
 -  (void)button2Click:(id)sender
 {
-    [[self button2] setHidden:YES];
+    if ((button1.hidden==YES)) {
+        [button2 setHidden:YES];
+    }
+    else  {
+        [button2 setHidden:NO];
+        [button1 setHidden:NO];
+    }
 }
 
 -  (void)button3Click:(id)sender
 {
-    [[self button3] setHidden:YES];
+    if ((button1.hidden==YES) && (button2.hidden==YES))  {
+        [button3 setHidden:YES];
+    }
+    else  {
+        [button1 setHidden:NO];
+        [button2 setHidden:NO];
+        [button3 setHidden:NO];
+    }
 }
 
 -  (void)button4Click:(id)sender
 {
-    [[self button4] setHidden:YES];
+    if ((button1.hidden==YES) && (button2.hidden==YES) && (button3.hidden==YES))  {
+        [button4 setHidden:YES];
+    }
+    else  {
+        [button1 setHidden:NO];
+        [button2 setHidden:NO];
+        [button3 setHidden:NO];
+        [button4 setHidden:NO];
+    }
 }
 
 -  (void)button5Click:(id)sender
 {
-    [[self button5] setHidden:YES];
+    if ((button1.hidden==YES) && (button2.hidden==YES) && (button3.hidden==YES) && (button4.hidden==YES))  {
+        [button5 setHidden:YES];
+    }
+    else  {
+        [button1 setHidden:NO];
+        [button2 setHidden:NO];
+        [button3 setHidden:NO];
+        [button4 setHidden:NO];
+        [button5 setHidden:NO];
+    }
 }
 
 -  (void)button6Click:(id)sender
 {
-    [[self button6] setHidden:YES];
+    if ((button1.hidden==YES) && (button2.hidden==YES) && (button3.hidden==YES) && (button4.hidden==YES) && (button5.hidden==YES))  {
+        [button6 setHidden:YES];
+    }
+    else  {
+        [button1 setHidden:NO];
+        [button2 setHidden:NO];
+        [button3 setHidden:NO];
+        [button4 setHidden:NO];
+        [button5 setHidden:NO];
+        [button6 setHidden:NO];
+    }
 }
 
 
