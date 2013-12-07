@@ -89,6 +89,9 @@
                                     <color key="titleColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="tAj-Zr-lnn" kind="modal" id="lQB-q7-Uy0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDz-iM-wTD">
                                 <rect key="frame" x="160" y="107" width="220" height="30"/>
@@ -124,6 +127,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Cv-fe-HLw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1121" y="75"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="goQ-xb-7Cm">
+            <objects>
+                <viewController id="tAj-Zr-lnn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="p3I-N8-iO9"/>
+                        <viewControllerLayoutGuide type="bottom" id="s5g-aK-KZw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wtn-xI-vQR">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="American-Patriot.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tEe-xu-4uU">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ttr-OU-HLT">
+                                <rect key="frame" x="1" y="0.0" width="189" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Level Select">
+                                    <color key="titleColor" red="1" green="0.15628031363506611" blue="0.16153025342287697" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="6C9-li-N5I" kind="modal" id="80a-it-Z3V"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SC5-wr-AnY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1343" y="537"/>
         </scene>
         <!--Song2-->
         <scene sceneID="Lwv-8g-2gA">
@@ -248,6 +287,13 @@
                                     <segue destination="6C9-li-N5I" kind="modal" id="IMt-2Q-scl"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ur8-39-Mgq">
+                                <rect key="frame" x="261" y="145" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -260,6 +306,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="American-Patriot.jpg" width="1600" height="1200"/>
         <image name="abstract.png" width="480" height="320"/>
         <image name="circlefilled.png" width="40" height="40"/>
         <image name="cool-backgrounds-random-17514354-1024-640.jpg" width="1640" height="1025"/>
@@ -272,6 +319,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="xWU-qE-USO"/>
+        <segue reference="80a-it-Z3V"/>
     </inferredMetricsTieBreakers>
 </document>
