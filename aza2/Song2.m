@@ -86,15 +86,6 @@ bool paused = NO;
     } else {
         NSLog( @"Couldn't find sound file.");
     }
-    
-    
-    // hide all the buttons to start
-    [button1 setHidden:NO];
-    [button2 setHidden:NO];
-    [button3 setHidden:NO];
-    [button4 setHidden:NO];
-    [button5 setHidden:NO];
-    [button6 setHidden:NO];
 }
 
 
