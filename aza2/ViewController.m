@@ -26,7 +26,7 @@
     
     UILabel *myLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, screenWidth, 240)];
                         
-    myLabel.text = @"AZZZZZZZZZZZZA";
+    myLabel.text = @"AZA";
     myLabel.textColor = [UIColor colorWithWhite:1 alpha:1];
     [myLabel setFont:[UIFont fontWithName:@"Chalkduster" size:24]];
     
