@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 Zack. All rights reserved.
 //
 
+
 #import "button.h"
 #import "Song2.h"
 #import <AVFoundation/AVFoundation.h>
@@ -87,26 +88,57 @@ bool paused = NO;
 
 -  (void)button1Click:(id)sender {
     [[self button1] setHidden:YES];
+    [self performSelector:@selector(button1Appear:) withObject:button1 afterDelay:1.0];
+}
+
+- (void)button1Appear:(id)sender  {
+    [[self button1] setHidden:NO];
 }
 
 -  (void)button2Click:(id)sender {
     [[self button2] setHidden:YES];
+    [self performSelector:@selector(button2Appear:) withObject:button2 afterDelay:1.0];
+}
+
+
+- (void)button2Appear:(id)sender  {
+    [[self button2] setHidden:NO];
 }
 
 -  (void)button3Click:(id)sender {
     [[self button3] setHidden:YES];
+    [self performSelector:@selector(button3Appear:) withObject:button3 afterDelay:1.0];
+}
+
+- (void)button3Appear:(id)sender  {
+    [[self button3] setHidden:NO];
 }
 
 -  (void)button4Click:(id)sender {
     [[self button4] setHidden:YES];
+    [self performSelector:@selector(button4Appear:) withObject:button4 afterDelay:1.0];
+}
+
+- (void)button4Appear:(id)sender  {
+    [[self button4] setHidden:NO];
 }
 
 -  (void)button5Click:(id)sender {
     [[self button5] setHidden:YES];
+    [self performSelector:@selector(button5Appear:) withObject:button5 afterDelay:1.0];
+}
+
+- (void)button5Appear:(id)sender  {
+    [[self button5] setHidden:NO];
 }
 
 -  (void)button6Click:(id)sender {
     [[self button6] setHidden:YES];
+    [self performSelector:@selector(button6Appear:) withObject:button6 afterDelay:1.0];
+}
+
+- (void)button6Appear:(id)sender  {
+    [[self button6] setHidden:NO];
 }
 
 -(void)pauseTap:(id)sender
