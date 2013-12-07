@@ -32,6 +32,7 @@
 		1489D1D2184FA037003208F9 /* abstract.png in Resources */ = {isa = PBXBuildFile; fileRef = 1489D1D1184FA037003208F9 /* abstract.png */; };
 		14AED2E6184FAE070041DEA3 /* darkBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 14AED2E5184FAE070041DEA3 /* darkBlue.png */; };
 		14E297C8185079A600C1D2D3 /* button.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E297C7185079A600C1D2D3 /* button.m */; };
+		FAD11B211853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAD11B201853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		14AED2E5184FAE070041DEA3 /* darkBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = darkBlue.png; path = ../../darkBlue.png; sourceTree = "<group>"; };
 		14E297C6185079A600C1D2D3 /* button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = button.h; sourceTree = "<group>"; };
 		14E297C7185079A600C1D2D3 /* button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = button.m; sourceTree = "<group>"; };
+		FAD11B201853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cool-backgrounds-random-17514354-1024-640.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 		1489D19F184FA016003208F9 /* aza2 */ = {
 			isa = PBXGroup;
 			children = (
+				FAD11B201853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg */,
 				1489D1A8184FA016003208F9 /* AppDelegate.h */,
 				1489D1A9184FA016003208F9 /* AppDelegate.m */,
 				14E297C6185079A600C1D2D3 /* button.h */,
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				144EC9851850465F00A45865 /* HeavyHunter.mp3 in Resources */,
+				FAD11B211853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg in Resources */,
 				144ECC351850764700A45865 /* heavyBackground.jpg in Resources */,
 				144EC97C1850254100A45865 /* Song2.xib in Resources */,
 				14AED2E6184FAE070041DEA3 /* darkBlue.png in Resources */,
