@@ -1,5 +1,5 @@
 //
-//  Song3.h
+//  Medium.h
 //  aza2
 //
 //  Created by Alex Orlov on 12/7/13.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 
-@interface Song3 : UIViewController
+@interface Medium : UIViewController
 
 @property (nonatomic, retain) AVAudioPlayer *player;
 @property (weak, nonatomic) IBOutlet UIButton *button1;

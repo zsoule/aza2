@@ -1,5 +1,5 @@
 //
-//  Song2.h
+//  Easy.h
 //  aza2
 //
 //  Created by Zack on 12/4/13.
@@ -10,7 +10,7 @@
 #import <AVFoundation/AVFoundation.h>
 
 
-@interface Song2 : UIViewController
+@interface Easy : UIViewController
 
 @property (nonatomic, retain) AVAudioPlayer *player;
 @property (weak, nonatomic) IBOutlet UIButton *button1;

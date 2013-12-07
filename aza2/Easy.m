@@ -1,5 +1,5 @@
 //
-//  Song2.m
+//  Easy.m
 //  aza2
 //
 //  Created by Zack on 12/4/13.
@@ -8,14 +8,14 @@
 
 
 #import "button.h"
-#import "Song2.h"
+#import "Easy.h"
 #import <AVFoundation/AVFoundation.h>
 
-@interface Song2 ()
+@interface Easy ()
 
 @end
 
-@implementation Song2
+@implementation Easy
 
 @synthesize button1;
 @synthesize button2;

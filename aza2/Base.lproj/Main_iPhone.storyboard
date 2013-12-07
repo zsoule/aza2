@@ -50,10 +50,10 @@
             </objects>
             <point key="canvasLocation" x="508" y="75"/>
         </scene>
-        <!--View Controller - SongSelection-->
+        <!--View Controller - LevelSelect-->
         <scene sceneID="qbS-C2-7t7">
             <objects>
-                <viewController title="SongSelection" id="6C9-li-N5I" sceneMemberID="viewController">
+                <viewController title="LevelSelect" id="6C9-li-N5I" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1CI-Zj-P9m"/>
                         <viewControllerLayoutGuide type="bottom" id="r0N-Ro-hBd"/>
@@ -164,10 +164,10 @@
             </objects>
             <point key="canvasLocation" x="1343" y="537"/>
         </scene>
-        <!--Song2-->
+        <!--Easy-->
         <scene sceneID="Lwv-8g-2gA">
             <objects>
-                <viewController id="HDo-oc-Bym" customClass="Song2" sceneMemberID="viewController">
+                <viewController id="HDo-oc-Bym" customClass="Easy" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LLk-g1-rWx"/>
                         <viewControllerLayoutGuide type="bottom" id="Sqr-Tb-kjO"/>
@@ -261,10 +261,10 @@
             </objects>
             <point key="canvasLocation" x="1828" y="-134"/>
         </scene>
-        <!--Song3-->
+        <!--Medium-->
         <scene sceneID="59z-mS-zQE">
             <objects>
-                <viewController id="Y9v-tz-RNt" customClass="Song3" sceneMemberID="viewController">
+                <viewController id="Y9v-tz-RNt" customClass="Medium" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="17L-FY-zmg"/>
                         <viewControllerLayoutGuide type="bottom" id="NuJ-g5-8Rs"/>
@@ -312,6 +312,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="xWU-qE-USO"/>
+        <segue reference="80a-it-Z3V"/>
     </inferredMetricsTieBreakers>
 </document>

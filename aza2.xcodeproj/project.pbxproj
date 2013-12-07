@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		144EC97B1850254100A45865 /* Song2.m in Sources */ = {isa = PBXBuildFile; fileRef = 144EC9791850254100A45865 /* Song2.m */; };
+		144EC97B1850254100A45865 /* Easy.m in Sources */ = {isa = PBXBuildFile; fileRef = 144EC9791850254100A45865 /* Easy.m */; };
 		144EC97C1850254100A45865 /* Song2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 144EC97A1850254100A45865 /* Song2.xib */; };
 		144EC9801850343A00A45865 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 144EC97F1850343A00A45865 /* pause.png */; };
 		144EC9821850441200A45865 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144EC9811850441200A45865 /* AVFoundation.framework */; };
@@ -33,7 +33,7 @@
 		14AED2E6184FAE070041DEA3 /* darkBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 14AED2E5184FAE070041DEA3 /* darkBlue.png */; };
 		14E297C8185079A600C1D2D3 /* button.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E297C7185079A600C1D2D3 /* button.m */; };
 		FAD11B211853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAD11B201853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg */; };
-		FAD11B241853BF0D008DD07D /* Song3.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD11B231853BF0D008DD07D /* Song3.m */; };
+		FAD11B241853BF0D008DD07D /* Medium.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD11B231853BF0D008DD07D /* Medium.m */; };
 		FAD11B281853C288008DD07D /* American-Patriot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAD11B271853C288008DD07D /* American-Patriot.jpg */; };
 /* End PBXBuildFile section */
 
@@ -48,8 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		144EC9781850254100A45865 /* Song2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song2.h; sourceTree = "<group>"; };
-		144EC9791850254100A45865 /* Song2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song2.m; sourceTree = "<group>"; };
+		144EC9781850254100A45865 /* Easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Easy.h; sourceTree = "<group>"; };
+		144EC9791850254100A45865 /* Easy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Easy.m; sourceTree = "<group>"; };
 		144EC97A1850254100A45865 /* Song2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Song2.xib; sourceTree = "<group>"; };
 		144EC97F1850343A00A45865 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = ../../pause.png; sourceTree = "<group>"; };
 		144EC9811850441200A45865 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -81,8 +81,8 @@
 		14E297C6185079A600C1D2D3 /* button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = button.h; sourceTree = "<group>"; };
 		14E297C7185079A600C1D2D3 /* button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = button.m; sourceTree = "<group>"; };
 		FAD11B201853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cool-backgrounds-random-17514354-1024-640.jpg"; sourceTree = "<group>"; };
-		FAD11B221853BF0D008DD07D /* Song3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song3.h; sourceTree = "<group>"; };
-		FAD11B231853BF0D008DD07D /* Song3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song3.m; sourceTree = "<group>"; };
+		FAD11B221853BF0D008DD07D /* Medium.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Medium.h; sourceTree = "<group>"; };
+		FAD11B231853BF0D008DD07D /* Medium.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Medium.m; sourceTree = "<group>"; };
 		FAD11B271853C288008DD07D /* American-Patriot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "American-Patriot.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,10 +151,10 @@
 				14E297C6185079A600C1D2D3 /* button.h */,
 				14E297C7185079A600C1D2D3 /* button.m */,
 				1489D1AB184FA016003208F9 /* Main_iPhone.storyboard */,
-				144EC9781850254100A45865 /* Song2.h */,
-				144EC9791850254100A45865 /* Song2.m */,
-				FAD11B221853BF0D008DD07D /* Song3.h */,
-				FAD11B231853BF0D008DD07D /* Song3.m */,
+				144EC9781850254100A45865 /* Easy.h */,
+				144EC9791850254100A45865 /* Easy.m */,
+				FAD11B221853BF0D008DD07D /* Medium.h */,
+				FAD11B231853BF0D008DD07D /* Medium.m */,
 				FAD11B271853C288008DD07D /* American-Patriot.jpg */,
 				144EC97A1850254100A45865 /* Song2.xib */,
 				1489D1B1184FA016003208F9 /* ViewController.h */,
@@ -308,10 +308,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD11B241853BF0D008DD07D /* Song3.m in Sources */,
+				FAD11B241853BF0D008DD07D /* Medium.m in Sources */,
 				1489D1B3184FA016003208F9 /* ViewController.m in Sources */,
 				14E297C8185079A600C1D2D3 /* button.m in Sources */,
-				144EC97B1850254100A45865 /* Song2.m in Sources */,
+				144EC97B1850254100A45865 /* Easy.m in Sources */,
 				1489D1AA184FA016003208F9 /* AppDelegate.m in Sources */,
 				1489D1A6184FA016003208F9 /* main.m in Sources */,
 			);

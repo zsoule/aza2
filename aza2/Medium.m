@@ -1,18 +1,18 @@
 //
-//  Song3.m
+//  Medium.m
 //  aza2
 //
 //  Created by Alex Orlov on 12/7/13.
 //  Copyright (c) 2013 Zack. All rights reserved.
 //
 
-#import "Song3.h"
+#import "Medium.h"
 
-@interface Song3 ()
+@interface Medium ()
 
 @end
 
-@implementation Song3
+@implementation Medium
 
 @synthesize button1;
 @synthesize button2;
