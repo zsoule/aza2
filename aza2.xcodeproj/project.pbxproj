@@ -33,6 +33,7 @@
 		14AED2E6184FAE070041DEA3 /* darkBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 14AED2E5184FAE070041DEA3 /* darkBlue.png */; };
 		14E297C8185079A600C1D2D3 /* button.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E297C7185079A600C1D2D3 /* button.m */; };
 		FAD11B211853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAD11B201853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg */; };
+		FAD11B241853BF0D008DD07D /* Song3.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD11B231853BF0D008DD07D /* Song3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,8 @@
 		14E297C6185079A600C1D2D3 /* button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = button.h; sourceTree = "<group>"; };
 		14E297C7185079A600C1D2D3 /* button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = button.m; sourceTree = "<group>"; };
 		FAD11B201853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cool-backgrounds-random-17514354-1024-640.jpg"; sourceTree = "<group>"; };
+		FAD11B221853BF0D008DD07D /* Song3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song3.h; sourceTree = "<group>"; };
+		FAD11B231853BF0D008DD07D /* Song3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +151,8 @@
 				1489D1AB184FA016003208F9 /* Main_iPhone.storyboard */,
 				144EC9781850254100A45865 /* Song2.h */,
 				144EC9791850254100A45865 /* Song2.m */,
+				FAD11B221853BF0D008DD07D /* Song3.h */,
+				FAD11B231853BF0D008DD07D /* Song3.m */,
 				144EC97A1850254100A45865 /* Song2.xib */,
 				1489D1B1184FA016003208F9 /* ViewController.h */,
 				1489D1B2184FA016003208F9 /* ViewController.m */,
@@ -299,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD11B241853BF0D008DD07D /* Song3.m in Sources */,
 				1489D1B3184FA016003208F9 /* ViewController.m in Sources */,
 				14E297C8185079A600C1D2D3 /* button.m in Sources */,
 				144EC97B1850254100A45865 /* Song2.m in Sources */,

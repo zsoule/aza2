@@ -222,10 +222,10 @@
             </objects>
             <point key="canvasLocation" x="1828" y="-134"/>
         </scene>
-        <!--View Controller-->
+        <!--Song3-->
         <scene sceneID="59z-mS-zQE">
             <objects>
-                <viewController id="Y9v-tz-RNt" sceneMemberID="viewController">
+                <viewController id="Y9v-tz-RNt" customClass="Song3" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="17L-FY-zmg"/>
                         <viewControllerLayoutGuide type="bottom" id="NuJ-g5-8Rs"/>
@@ -272,6 +272,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="IMt-2Q-scl"/>
+        <segue reference="xWU-qE-USO"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -1,21 +1,18 @@
 //
-//  Song2.m
+//  Song3.m
 //  aza2
 //
-//  Created by Zack on 12/4/13.
+//  Created by Alex Orlov on 12/7/13.
 //  Copyright (c) 2013 Zack. All rights reserved.
 //
 
+#import "Song3.h"
 
-#import "button.h"
-#import "Song2.h"
-#import <AVFoundation/AVFoundation.h>
-
-@interface Song2 ()
+@interface Song3 ()
 
 @end
 
-@implementation Song2
+@implementation Song3
 
 @synthesize button1;
 @synthesize button2;
@@ -23,10 +20,6 @@
 @synthesize button4;
 @synthesize button5;
 @synthesize button6;
-
-@synthesize player;
-
-bool paused = NO;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -39,26 +32,8 @@ bool paused = NO;
 
 - (void)viewDidLoad
 {
-
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
-    
-    // for positioning
-    CGRect screenSize = [[UIScreen mainScreen] bounds];
-    CGFloat screenWidth = screenSize.size.height;
-    // have to use height because of screen orientation
-    CGFloat screenHeight = screenSize.size.width;
-    
-    
-    // pause button
-    UIButton *pauseButton = [[UIButton alloc] initWithFrame:CGRectMake((screenWidth-screenWidth/22)/2, screenHeight-screenHeight/12, screenWidth/22, screenHeight/12)];
-
-    [pauseButton setImage:[UIImage imageNamed:@"pause.png"] forState:UIControlStateNormal];
-    [pauseButton addTarget:self action:@selector(pauseTap:) forControlEvents:UIControlEventTouchUpInside];
-    
-    [self.view addSubview:pauseButton];
-
     
     // create even handler for disappearing buttons
     [button1 addTarget:self action:@selector(button1Click:) forControlEvents:(UIControlEvents)UIControlEventTouchDown];
@@ -68,7 +43,7 @@ bool paused = NO;
     [button5 addTarget:self action:@selector(button5Click:) forControlEvents:(UIControlEvents)UIControlEventTouchDown];
     [button6 addTarget:self action:@selector(button6Click:) forControlEvents:(UIControlEvents)UIControlEventTouchDown];
     
-
+    
     // playing the music
     // code adapted from the following stack overflow post:
     // http://stackoverflow.com/questions/15236421/ios-xcode-4-6-adding-audio-to-app
@@ -86,15 +61,6 @@ bool paused = NO;
     } else {
         NSLog( @"Couldn't find sound file.");
     }
-    
-    
-    // hide all the buttons to start
-    [button1 setHidden:NO];
-    [button2 setHidden:NO];
-    [button3 setHidden:NO];
-    [button4 setHidden:NO];
-    [button5 setHidden:NO];
-    [button6 setHidden:NO];
 }
 
 
@@ -180,20 +146,5 @@ bool paused = NO;
         [button5 setHidden:NO];
         [button6 setHidden:NO];
     }
-}
-
-
-
-// function controlling pause
--(void)pauseTap:(id)sender
-{
-    [self.view setBackgroundColor:[UIColor colorWithRed:1 green:0 blue:0 alpha:1]];
-    
-    if(paused == NO)
-    {
-        
-        
-    }
-    
 }
 @end
