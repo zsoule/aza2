@@ -134,13 +134,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DwR-Jf-xcC">
-                                <rect key="frame" x="225" y="290" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="| |">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heavyBackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Foo-VC-KsB">
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="327"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -195,11 +188,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="DwR-Jf-xcC" secondAttribute="bottom" id="CVy-1H-PIk"/>
-                            <constraint firstItem="DwR-Jf-xcC" firstAttribute="leading" secondItem="lqz-SF-Ycc" secondAttribute="leading" constant="225" id="P5U-7x-Ktx"/>
-                            <constraint firstAttribute="trailing" secondItem="DwR-Jf-xcC" secondAttribute="trailing" constant="225" id="e4k-OC-WKg"/>
-                        </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                         <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     </view>

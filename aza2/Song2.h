@@ -21,11 +21,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *button6;
 
 - (IBAction)pauseTap:(id)sender;
-- (void)button1Appear:(id)sender;
-- (void)button2Appear:(id)sender;
-- (void)button3Appear:(id)sender;
-- (void)button4Appear:(id)sender;
-- (void)button5Appear:(id)sender;
-- (void)button6Appear:(id)sender;
+- (void)buttonAppear:(id)sender;
 
 @end

@@ -50,35 +50,61 @@ bool paused = NO;
     // have to use height because of screen orientation
     CGFloat screenHeight = screenSize.size.width;
     
+    
     // pause button
     UIButton *pauseButton = [[UIButton alloc] initWithFrame:CGRectMake((screenWidth-screenWidth/22)/2, screenHeight-screenHeight/12, screenWidth/22, screenHeight/12)];
 
     [pauseButton setImage:[UIImage imageNamed:@"pause.png"] forState:UIControlStateNormal];
     [pauseButton addTarget:self action:@selector(pauseTap:) forControlEvents:UIControlEventTouchUpInside];
     
+    [self.view addSubview:pauseButton];
+
+    
     // create even handler for disappearing buttons
     [button1 addTarget:self action:@selector(button1Click:) forControlEvents:(UIControlEvents)UIControlEventTouchDown];
-    
     [button2 addTarget:self action:@selector(button2Click:) forControlEvents:(UIControlEvents)UIControlEventTouchDown];
-    
     [button3 addTarget:self action:@selector(button3Click:) forControlEvents:(UIControlEvents)UIControlEventTouchDown];
-    
     [button4 addTarget:self action:@selector(button4Click:) forControlEvents:(UIControlEvents)UIControlEventTouchDown];
-    
     [button5 addTarget:self action:@selector(button5Click:) forControlEvents:(UIControlEvents)UIControlEventTouchDown];
-    
     [button6 addTarget:self action:@selector(button6Click:) forControlEvents:(UIControlEvents)UIControlEventTouchDown];
     
-    [self.view addSubview:pauseButton];
-    
 
-    // music
-    SystemSoundID soundID;
-    NSString *soundFile = [[NSBundle mainBundle] pathForResource:@"HeavyHunter" ofType:@"wav"];
-    AudioServicesCreateSystemSoundID((__bridge  CFURLRef) [NSURL fileURLWithPath:soundFile], & soundID);
-    AudioServicesPlaySystemSound(soundID);
+    // playing the music
+    // code adapted from the following stack overflow post:
+    // http://stackoverflow.com/questions/15236421/ios-xcode-4-6-adding-audio-to-app
+    SystemSoundID song;
+    NSString *songFile = [[NSBundle mainBundle] pathForResource:@"HeavyHunter" ofType:@"wav"];
+    if(songFile)
+    {
+        OSStatus status = AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath:songFile], &song);
+        if(status == noErr)
+        {
+            AudioServicesPlaySystemSound(song);
+        } else {
+            NSLog( @"No song id created; error status code is %d", (int)status);
+        }
+    } else {
+        NSLog( @"Couldn't find sound file.");
+    }
     
+    
+    // hide all the buttons to start
+    [button1 setHidden:YES];
+    [button2 setHidden:YES];
+    [button3 setHidden:YES];
+    [button4 setHidden:YES];
+    [button5 setHidden:YES];
+    [button6 setHidden:YES];
+    
+    
+    
+    
+    NSTimer *variable = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerFireMethod:) userInfo:nil repeats:NO];
+
+
+
 }
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -86,61 +112,54 @@ bool paused = NO;
     // Dispose of any resources that can be recreated.
 }
 
--  (void)button1Click:(id)sender {
+
+-(void)timerFireMethod: (NSTimer*) sender
+{
+    NSLog(@"Testing");
+}
+
+// function to make button appear
+- (void)buttonAppear:(id)sender
+{
+    [sender setHidden:NO];
+}
+
+
+
+// functions for when buttons are tapped
+-  (void)button1Click:(id)sender
+{
     [[self button1] setHidden:YES];
-    [self performSelector:@selector(button1Appear:) withObject:button1 afterDelay:1.0];
 }
 
-- (void)button1Appear:(id)sender  {
-    [[self button1] setHidden:NO];
-}
-
--  (void)button2Click:(id)sender {
+-  (void)button2Click:(id)sender
+{
     [[self button2] setHidden:YES];
-    [self performSelector:@selector(button2Appear:) withObject:button2 afterDelay:1.0];
 }
 
-
-- (void)button2Appear:(id)sender  {
-    [[self button2] setHidden:NO];
-}
-
--  (void)button3Click:(id)sender {
+-  (void)button3Click:(id)sender
+{
     [[self button3] setHidden:YES];
-    [self performSelector:@selector(button3Appear:) withObject:button3 afterDelay:1.0];
 }
 
-- (void)button3Appear:(id)sender  {
-    [[self button3] setHidden:NO];
-}
-
--  (void)button4Click:(id)sender {
+-  (void)button4Click:(id)sender
+{
     [[self button4] setHidden:YES];
-    [self performSelector:@selector(button4Appear:) withObject:button4 afterDelay:1.0];
 }
 
-- (void)button4Appear:(id)sender  {
-    [[self button4] setHidden:NO];
-}
-
--  (void)button5Click:(id)sender {
+-  (void)button5Click:(id)sender
+{
     [[self button5] setHidden:YES];
-    [self performSelector:@selector(button5Appear:) withObject:button5 afterDelay:1.0];
 }
 
-- (void)button5Appear:(id)sender  {
-    [[self button5] setHidden:NO];
-}
-
--  (void)button6Click:(id)sender {
+-  (void)button6Click:(id)sender
+{
     [[self button6] setHidden:YES];
-    [self performSelector:@selector(button6Appear:) withObject:button6 afterDelay:1.0];
 }
 
-- (void)button6Appear:(id)sender  {
-    [[self button6] setHidden:NO];
-}
 
+
+// function controlling pause
 -(void)pauseTap:(id)sender
 {
     [self.view setBackgroundColor:[UIColor colorWithRed:1 green:0 blue:0 alpha:1]];
