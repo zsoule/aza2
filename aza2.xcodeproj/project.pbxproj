@@ -31,9 +31,17 @@
 		1489D1D2184FA037003208F9 /* abstract.png in Resources */ = {isa = PBXBuildFile; fileRef = 1489D1D1184FA037003208F9 /* abstract.png */; };
 		14AED2E6184FAE070041DEA3 /* darkBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 14AED2E5184FAE070041DEA3 /* darkBlue.png */; };
 		14E297C8185079A600C1D2D3 /* button.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E297C7185079A600C1D2D3 /* button.m */; };
+		FA5BF7B71853CAF9004E3A21 /* germany-flag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5BF7B61853CAF9004E3A21 /* germany-flag.jpg */; };
+		FA5BF7B91853CBE2004E3A21 /* uk-flag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5BF7B81853CBE2004E3A21 /* uk-flag.jpg */; };
+		FA5BF7BB1853CCAB004E3A21 /* Spanish-Flag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5BF7BA1853CCAB004E3A21 /* Spanish-Flag.jpg */; };
+		FA5BF7BD1853CD53004E3A21 /* french_flag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5BF7BC1853CD53004E3A21 /* french_flag.jpg */; };
+		FA5BF7BF1853CE34004E3A21 /* Canadian-Flag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5BF7BE1853CE34004E3A21 /* Canadian-Flag.jpg */; };
+		FA5BF7C11853CEC4004E3A21 /* AustFlag__38704.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5BF7C01853CEC4004E3A21 /* AustFlag__38704.jpg */; };
+		FA5BF7C31853CF5A004E3A21 /* American_Flag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5BF7C21853CF5A004E3A21 /* American_Flag.jpg */; };
 		FAD11B211853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAD11B201853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg */; };
 		FAD11B241853BF0D008DD07D /* Medium.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD11B231853BF0D008DD07D /* Medium.m */; };
 		FAD11B281853C288008DD07D /* American-Patriot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAD11B271853C288008DD07D /* American-Patriot.jpg */; };
+		FAF4D7E21854BD5800233927 /* Murica.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF4D7E11854BD5800233927 /* Murica.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,10 +86,19 @@
 		14AED2E5184FAE070041DEA3 /* darkBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = darkBlue.png; path = ../../darkBlue.png; sourceTree = "<group>"; };
 		14E297C6185079A600C1D2D3 /* button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = button.h; sourceTree = "<group>"; };
 		14E297C7185079A600C1D2D3 /* button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = button.m; sourceTree = "<group>"; };
+		FA5BF7B61853CAF9004E3A21 /* germany-flag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "germany-flag.jpg"; sourceTree = "<group>"; };
+		FA5BF7B81853CBE2004E3A21 /* uk-flag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "uk-flag.jpg"; sourceTree = "<group>"; };
+		FA5BF7BA1853CCAB004E3A21 /* Spanish-Flag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spanish-Flag.jpg"; sourceTree = "<group>"; };
+		FA5BF7BC1853CD53004E3A21 /* french_flag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = french_flag.jpg; sourceTree = "<group>"; };
+		FA5BF7BE1853CE34004E3A21 /* Canadian-Flag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Canadian-Flag.jpg"; sourceTree = "<group>"; };
+		FA5BF7C01853CEC4004E3A21 /* AustFlag__38704.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AustFlag__38704.jpg; sourceTree = "<group>"; };
+		FA5BF7C21853CF5A004E3A21 /* American_Flag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = American_Flag.jpg; sourceTree = "<group>"; };
 		FAD11B201853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cool-backgrounds-random-17514354-1024-640.jpg"; sourceTree = "<group>"; };
 		FAD11B221853BF0D008DD07D /* Medium.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Medium.h; sourceTree = "<group>"; };
 		FAD11B231853BF0D008DD07D /* Medium.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Medium.m; sourceTree = "<group>"; };
 		FAD11B271853C288008DD07D /* American-Patriot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "American-Patriot.jpg"; sourceTree = "<group>"; };
+		FAF4D7E01854BD5800233927 /* Murica.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Murica.h; sourceTree = "<group>"; };
+		FAF4D7E11854BD5800233927 /* Murica.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Murica.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +160,8 @@
 		1489D19F184FA016003208F9 /* aza2 */ = {
 			isa = PBXGroup;
 			children = (
+				FAF4D7E01854BD5800233927 /* Murica.h */,
+				FAF4D7E11854BD5800233927 /* Murica.m */,
 				FAD11B201853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg */,
 				1489D1A8184FA016003208F9 /* AppDelegate.h */,
 				1489D1A9184FA016003208F9 /* AppDelegate.m */,
@@ -152,9 +171,16 @@
 				144EC9781850254100A45865 /* Easy.h */,
 				144EC9791850254100A45865 /* Easy.m */,
 				FAD11B221853BF0D008DD07D /* Medium.h */,
+				FA5BF7C21853CF5A004E3A21 /* American_Flag.jpg */,
+				FA5BF7B81853CBE2004E3A21 /* uk-flag.jpg */,
+				FA5BF7BC1853CD53004E3A21 /* french_flag.jpg */,
+				FA5BF7B61853CAF9004E3A21 /* germany-flag.jpg */,
+				FA5BF7BE1853CE34004E3A21 /* Canadian-Flag.jpg */,
 				FAD11B231853BF0D008DD07D /* Medium.m */,
 				FAD11B271853C288008DD07D /* American-Patriot.jpg */,
+				FA5BF7C01853CEC4004E3A21 /* AustFlag__38704.jpg */,
 				1489D1B1184FA016003208F9 /* ViewController.h */,
+				FA5BF7BA1853CCAB004E3A21 /* Spanish-Flag.jpg */,
 				1489D1B2184FA016003208F9 /* ViewController.m */,
 				144EC9841850465F00A45865 /* HeavyHunter.mp3 */,
 				144ECC321850740F00A45865 /* HeavyHunter.wav */,
@@ -277,13 +303,20 @@
 				144EC9851850465F00A45865 /* HeavyHunter.mp3 in Resources */,
 				FAD11B211853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg in Resources */,
 				FAD11B281853C288008DD07D /* American-Patriot.jpg in Resources */,
+				FA5BF7C11853CEC4004E3A21 /* AustFlag__38704.jpg in Resources */,
 				144ECC351850764700A45865 /* heavyBackground.jpg in Resources */,
+				FA5BF7B71853CAF9004E3A21 /* germany-flag.jpg in Resources */,
+				FA5BF7C31853CF5A004E3A21 /* American_Flag.jpg in Resources */,
 				14AED2E6184FAE070041DEA3 /* darkBlue.png in Resources */,
 				144EC9801850343A00A45865 /* pause.png in Resources */,
+				FA5BF7BB1853CCAB004E3A21 /* Spanish-Flag.jpg in Resources */,
 				148415ED1850784900A3FE07 /* circlefilled.png in Resources */,
 				1489D1D2184FA037003208F9 /* abstract.png in Resources */,
 				1489D1B5184FA016003208F9 /* Images.xcassets in Resources */,
 				144ECC331850740F00A45865 /* HeavyHunter.wav in Resources */,
+				FA5BF7BF1853CE34004E3A21 /* Canadian-Flag.jpg in Resources */,
+				FA5BF7B91853CBE2004E3A21 /* uk-flag.jpg in Resources */,
+				FA5BF7BD1853CD53004E3A21 /* french_flag.jpg in Resources */,
 				1489D1AD184FA016003208F9 /* Main_iPhone.storyboard in Resources */,
 				1489D1A4184FA016003208F9 /* InfoPlist.strings in Resources */,
 			);
@@ -306,6 +339,7 @@
 			files = (
 				FAD11B241853BF0D008DD07D /* Medium.m in Sources */,
 				1489D1B3184FA016003208F9 /* ViewController.m in Sources */,
+				FAF4D7E21854BD5800233927 /* Murica.m in Sources */,
 				14E297C8185079A600C1D2D3 /* button.m in Sources */,
 				144EC97B1850254100A45865 /* Easy.m in Sources */,
 				1489D1AA184FA016003208F9 /* AppDelegate.m in Sources */,
