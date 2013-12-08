@@ -77,16 +77,16 @@ UIButton *button10;
     
     
     // set backgorund image
-    [button1 setImage:[UIImage imageNamed:@"mediumButton.png"] forState:UIControlStateNormal];
-    [button2 setImage:[UIImage imageNamed:@"mediumButton.png"] forState:UIControlStateNormal];
-    [button3 setImage:[UIImage imageNamed:@"mediumButton.png"] forState:UIControlStateNormal];
-    [button4 setImage:[UIImage imageNamed:@"mediumButton.png"] forState:UIControlStateNormal];
-    [button5 setImage:[UIImage imageNamed:@"mediumButton.png"] forState:UIControlStateNormal];
-    [button6 setImage:[UIImage imageNamed:@"mediumButton.png"] forState:UIControlStateNormal];
-    [button7 setImage:[UIImage imageNamed:@"mediumButton.png"] forState:UIControlStateNormal];
-    [button8 setImage:[UIImage imageNamed:@"mediumButton.png"] forState:UIControlStateNormal];
-    [button9 setImage:[UIImage imageNamed:@"mediumButton.png"] forState:UIControlStateNormal];
-    [button10 setImage:[UIImage imageNamed:@"mediumButton.png"] forState:UIControlStateNormal];
+    [button1 setImage:[UIImage imageNamed:@"hardButton.png"] forState:UIControlStateNormal];
+    [button2 setImage:[UIImage imageNamed:@"hardButton.png"] forState:UIControlStateNormal];
+    [button3 setImage:[UIImage imageNamed:@"hardButton.png"] forState:UIControlStateNormal];
+    [button4 setImage:[UIImage imageNamed:@"hardButton.png"] forState:UIControlStateNormal];
+    [button5 setImage:[UIImage imageNamed:@"hardButton.png"] forState:UIControlStateNormal];
+    [button6 setImage:[UIImage imageNamed:@"hardButton.png"] forState:UIControlStateNormal];
+    [button7 setImage:[UIImage imageNamed:@"hardButton.png"] forState:UIControlStateNormal];
+    [button8 setImage:[UIImage imageNamed:@"hardButton.png"] forState:UIControlStateNormal];
+    [button9 setImage:[UIImage imageNamed:@"hardButton.png"] forState:UIControlStateNormal];
+    [button10 setImage:[UIImage imageNamed:@"hardButton.png"] forState:UIControlStateNormal];
     
     // add buttons to view
     [self.view addSubview:button1];
