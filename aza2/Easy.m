@@ -24,7 +24,6 @@
 @synthesize button5;
 @synthesize button6;
 
-@synthesize player;
 
 bool paused = NO;
 
@@ -50,7 +49,7 @@ bool paused = NO;
     [button5 addTarget:self action:@selector(button5Click:) forControlEvents:(UIControlEvents)UIControlEventTouchDown];
     [button6 addTarget:self action:@selector(button6Click:) forControlEvents:(UIControlEvents)UIControlEventTouchDown];
     
-
+    /*
     // playing the music
     // code adapted from the following stack overflow post:
     // http://stackoverflow.com/questions/15236421/ios-xcode-4-6-adding-audio-to-app
@@ -68,6 +67,7 @@ bool paused = NO;
     } else {
         NSLog( @"Couldn't find sound file.");
     }
+    */
 }
 
 

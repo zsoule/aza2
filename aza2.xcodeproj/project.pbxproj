@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		144E06621854C212008AAB99 /* Medium.m in Sources */ = {isa = PBXBuildFile; fileRef = 144E06611854C212008AAB99 /* Medium.m */; };
+		144E06641854C220008AAB99 /* win.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 144E06631854C220008AAB99 /* win.jpg */; };
 		144EC97B1850254100A45865 /* Easy.m in Sources */ = {isa = PBXBuildFile; fileRef = 144EC9791850254100A45865 /* Easy.m */; };
 		144EC9801850343A00A45865 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 144EC97F1850343A00A45865 /* pause.png */; };
 		144EC9821850441200A45865 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144EC9811850441200A45865 /* AVFoundation.framework */; };
@@ -39,7 +41,6 @@
 		FA5BF7C11853CEC4004E3A21 /* AustFlag__38704.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5BF7C01853CEC4004E3A21 /* AustFlag__38704.jpg */; };
 		FA5BF7C31853CF5A004E3A21 /* American_Flag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5BF7C21853CF5A004E3A21 /* American_Flag.jpg */; };
 		FAD11B211853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAD11B201853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg */; };
-		FAD11B241853BF0D008DD07D /* Medium.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD11B231853BF0D008DD07D /* Medium.m */; };
 		FAD11B281853C288008DD07D /* American-Patriot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAD11B271853C288008DD07D /* American-Patriot.jpg */; };
 		FAF4D7E21854BD5800233927 /* Murica.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF4D7E11854BD5800233927 /* Murica.m */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		144E06601854C212008AAB99 /* Medium.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Medium.h; sourceTree = "<group>"; };
+		144E06611854C212008AAB99 /* Medium.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Medium.m; sourceTree = "<group>"; };
+		144E06631854C220008AAB99 /* win.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = win.jpg; sourceTree = "<group>"; };
 		144EC9781850254100A45865 /* Easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Easy.h; sourceTree = "<group>"; };
 		144EC9791850254100A45865 /* Easy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Easy.m; sourceTree = "<group>"; };
 		144EC97F1850343A00A45865 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = ../../pause.png; sourceTree = "<group>"; };
@@ -94,8 +98,6 @@
 		FA5BF7C01853CEC4004E3A21 /* AustFlag__38704.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AustFlag__38704.jpg; sourceTree = "<group>"; };
 		FA5BF7C21853CF5A004E3A21 /* American_Flag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = American_Flag.jpg; sourceTree = "<group>"; };
 		FAD11B201853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cool-backgrounds-random-17514354-1024-640.jpg"; sourceTree = "<group>"; };
-		FAD11B221853BF0D008DD07D /* Medium.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Medium.h; sourceTree = "<group>"; };
-		FAD11B231853BF0D008DD07D /* Medium.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Medium.m; sourceTree = "<group>"; };
 		FAD11B271853C288008DD07D /* American-Patriot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "American-Patriot.jpg"; sourceTree = "<group>"; };
 		FAF4D7E01854BD5800233927 /* Murica.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Murica.h; sourceTree = "<group>"; };
 		FAF4D7E11854BD5800233927 /* Murica.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Murica.m; sourceTree = "<group>"; };
@@ -170,13 +172,14 @@
 				1489D1AB184FA016003208F9 /* Main_iPhone.storyboard */,
 				144EC9781850254100A45865 /* Easy.h */,
 				144EC9791850254100A45865 /* Easy.m */,
-				FAD11B221853BF0D008DD07D /* Medium.h */,
+				144E06601854C212008AAB99 /* Medium.h */,
+				144E06611854C212008AAB99 /* Medium.m */,
 				FA5BF7C21853CF5A004E3A21 /* American_Flag.jpg */,
 				FA5BF7B81853CBE2004E3A21 /* uk-flag.jpg */,
 				FA5BF7BC1853CD53004E3A21 /* french_flag.jpg */,
+				144E06631854C220008AAB99 /* win.jpg */,
 				FA5BF7B61853CAF9004E3A21 /* germany-flag.jpg */,
 				FA5BF7BE1853CE34004E3A21 /* Canadian-Flag.jpg */,
-				FAD11B231853BF0D008DD07D /* Medium.m */,
 				FAD11B271853C288008DD07D /* American-Patriot.jpg */,
 				FA5BF7C01853CEC4004E3A21 /* AustFlag__38704.jpg */,
 				1489D1B1184FA016003208F9 /* ViewController.h */,
@@ -300,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144E06641854C220008AAB99 /* win.jpg in Resources */,
 				144EC9851850465F00A45865 /* HeavyHunter.mp3 in Resources */,
 				FAD11B211853BC6F008DD07D /* cool-backgrounds-random-17514354-1024-640.jpg in Resources */,
 				FAD11B281853C288008DD07D /* American-Patriot.jpg in Resources */,
@@ -337,8 +341,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD11B241853BF0D008DD07D /* Medium.m in Sources */,
 				1489D1B3184FA016003208F9 /* ViewController.m in Sources */,
+				144E06621854C212008AAB99 /* Medium.m in Sources */,
 				FAF4D7E21854BD5800233927 /* Murica.m in Sources */,
 				14E297C8185079A600C1D2D3 /* button.m in Sources */,
 				144EC97B1850254100A45865 /* Easy.m in Sources */,

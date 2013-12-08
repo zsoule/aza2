@@ -12,7 +12,6 @@
 
 @interface Easy : UIViewController
 
-@property (nonatomic, retain) AVAudioPlayer *player;
 @property (weak, nonatomic) IBOutlet UIButton *button1;
 @property (weak, nonatomic) IBOutlet UIButton *button2;
 @property (weak, nonatomic) IBOutlet UIButton *button3;
@@ -20,7 +19,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *button5;
 @property (weak, nonatomic) IBOutlet UIButton *button6;
 
-- (IBAction)pauseTap:(id)sender;
 - (void)buttonAppear:(id)sender;
 
 @end
