@@ -19,6 +19,4 @@
 @property (weak, nonatomic) IBOutlet UIButton *button5;
 @property (weak, nonatomic) IBOutlet UIButton *button6;
 
-- (void)buttonAppear:(id)sender;
-
 @end

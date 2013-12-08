@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		144E06621854C212008AAB99 /* Medium.m in Sources */ = {isa = PBXBuildFile; fileRef = 144E06611854C212008AAB99 /* Medium.m */; };
+		144E06621854C212008AAB99 /* Hard.m in Sources */ = {isa = PBXBuildFile; fileRef = 144E06611854C212008AAB99 /* Hard.m */; };
 		144E06641854C220008AAB99 /* win.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 144E06631854C220008AAB99 /* win.jpg */; };
 		144EC97B1850254100A45865 /* Easy.m in Sources */ = {isa = PBXBuildFile; fileRef = 144EC9791850254100A45865 /* Easy.m */; };
 		144EC9801850343A00A45865 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 144EC97F1850343A00A45865 /* pause.png */; };
@@ -56,8 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		144E06601854C212008AAB99 /* Medium.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Medium.h; sourceTree = "<group>"; };
-		144E06611854C212008AAB99 /* Medium.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Medium.m; sourceTree = "<group>"; };
+		144E06601854C212008AAB99 /* Hard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hard.h; sourceTree = "<group>"; };
+		144E06611854C212008AAB99 /* Hard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hard.m; sourceTree = "<group>"; };
 		144E06631854C220008AAB99 /* win.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = win.jpg; sourceTree = "<group>"; };
 		144EC9781850254100A45865 /* Easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Easy.h; sourceTree = "<group>"; };
 		144EC9791850254100A45865 /* Easy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Easy.m; sourceTree = "<group>"; };
@@ -172,26 +172,26 @@
 				1489D1AB184FA016003208F9 /* Main_iPhone.storyboard */,
 				144EC9781850254100A45865 /* Easy.h */,
 				144EC9791850254100A45865 /* Easy.m */,
-				144E06601854C212008AAB99 /* Medium.h */,
-				144E06611854C212008AAB99 /* Medium.m */,
-				FA5BF7C21853CF5A004E3A21 /* American_Flag.jpg */,
-				FA5BF7B81853CBE2004E3A21 /* uk-flag.jpg */,
-				FA5BF7BC1853CD53004E3A21 /* french_flag.jpg */,
-				144E06631854C220008AAB99 /* win.jpg */,
-				FA5BF7B61853CAF9004E3A21 /* germany-flag.jpg */,
-				FA5BF7BE1853CE34004E3A21 /* Canadian-Flag.jpg */,
-				FAD11B271853C288008DD07D /* American-Patriot.jpg */,
-				FA5BF7C01853CEC4004E3A21 /* AustFlag__38704.jpg */,
+				144E06601854C212008AAB99 /* Hard.h */,
+				144E06611854C212008AAB99 /* Hard.m */,
 				1489D1B1184FA016003208F9 /* ViewController.h */,
-				FA5BF7BA1853CCAB004E3A21 /* Spanish-Flag.jpg */,
 				1489D1B2184FA016003208F9 /* ViewController.m */,
-				144EC9841850465F00A45865 /* HeavyHunter.mp3 */,
-				144ECC321850740F00A45865 /* HeavyHunter.wav */,
+				FA5BF7C21853CF5A004E3A21 /* American_Flag.jpg */,
+				FA5BF7C01853CEC4004E3A21 /* AustFlag__38704.jpg */,
+				FA5BF7BE1853CE34004E3A21 /* Canadian-Flag.jpg */,
+				FA5BF7BC1853CD53004E3A21 /* french_flag.jpg */,
+				FA5BF7B61853CAF9004E3A21 /* germany-flag.jpg */,
+				FA5BF7BA1853CCAB004E3A21 /* Spanish-Flag.jpg */,
+				FA5BF7B81853CBE2004E3A21 /* uk-flag.jpg */,
 				1489D1D1184FA037003208F9 /* abstract.png */,
-				148415EC1850784900A3FE07 /* circlefilled.png */,
+				FAD11B271853C288008DD07D /* American-Patriot.jpg */,
 				14AED2E5184FAE070041DEA3 /* darkBlue.png */,
 				144ECC341850764700A45865 /* heavyBackground.jpg */,
+				144E06631854C220008AAB99 /* win.jpg */,
+				148415EC1850784900A3FE07 /* circlefilled.png */,
 				144EC97F1850343A00A45865 /* pause.png */,
+				144EC9841850465F00A45865 /* HeavyHunter.mp3 */,
+				144ECC321850740F00A45865 /* HeavyHunter.wav */,
 				1489D1B4184FA016003208F9 /* Images.xcassets */,
 				1489D1A0184FA016003208F9 /* Supporting Files */,
 			);
@@ -342,7 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1489D1B3184FA016003208F9 /* ViewController.m in Sources */,
-				144E06621854C212008AAB99 /* Medium.m in Sources */,
+				144E06621854C212008AAB99 /* Hard.m in Sources */,
 				FAF4D7E21854BD5800233927 /* Murica.m in Sources */,
 				14E297C8185079A600C1D2D3 /* button.m in Sources */,
 				144EC97B1850254100A45865 /* Easy.m in Sources */,

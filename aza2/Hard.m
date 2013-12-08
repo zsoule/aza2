@@ -1,18 +1,18 @@
 //
-//  Medium.m
+//  Hard.m
 //  aza2
 //
 //  Created by Alex Orlov on 12/7/13.
 //  Copyright (c) 2013 Zack. All rights reserved.
 //
 
-#import "Medium.h"
+#import "Hard.h"
 
-@interface Medium ()
+@interface Hard ()
 
 @end
 
-@implementation Medium
+@implementation Hard
 
 
 int buttonNum = 10;
@@ -147,9 +147,6 @@ UIButton *button10;
 -  (void)button1Click:(id)sender
 {
     [button1 setHidden:YES];
-    UIViewController *winScreen = [[UIStoryboard storyboardWithName:@"Main_iPhone.storyboard" bundle:Nil] instantiateViewControllerWithIdentifier:@"winScreen"];
-    
-    [self presentViewController:winScreen animated:NO completion:nil];
 }
 
 -  (void)button2Click:(id)sender
@@ -277,10 +274,13 @@ UIButton *button10;
 
 -  (void)button10Click:(id)sender
 {
-    if ((button1.hidden==YES) && (button2.hidden==YES) && (button3.hidden==YES) && (button4.hidden==YES) && (button5.hidden==YES) && (button6.hidden==YES) && (button7.hidden==YES) && (button8.hidden==YES) && (button9.hidden==YES))  {
+    if ((button1.hidden==YES) && (button2.hidden==YES) && (button3.hidden==YES) && (button4.hidden==YES) && (button5.hidden==YES) && (button6.hidden==YES) && (button7.hidden==YES) && (button8.hidden==YES) && (button9.hidden==YES))
+    {
         [button10 setHidden:YES];
         
-
+        // win condition
+        UIViewController *winScreen = [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:Nil] instantiateViewControllerWithIdentifier:@"winScreen"];
+        [self presentViewController:winScreen animated:NO completion:nil];
     }
     else  {
         [button1 setHidden:NO];
@@ -296,5 +296,6 @@ UIButton *button10;
 
     }
 }
+
 
 @end

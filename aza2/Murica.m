@@ -136,6 +136,10 @@
 -  (void)button7Click:(id)sender  {
     if ((button1.hidden==YES) && (button2.hidden==YES) && (button3.hidden==YES) && (button4.hidden==YES) && (button5.hidden==YES) && (button6.hidden==YES))  {
         [button7 setHidden:YES];
+        
+        // win condition
+        UIViewController *winScreen = [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:Nil] instantiateViewControllerWithIdentifier:@"winScreen"];
+        [self presentViewController:winScreen animated:NO completion:nil];
     }
     else  {
         [button1 setHidden:NO];

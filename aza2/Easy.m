@@ -25,8 +25,6 @@
 @synthesize button6;
 
 
-bool paused = NO;
-
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -144,6 +142,10 @@ bool paused = NO;
 {
     if ((button1.hidden==YES) && (button2.hidden==YES) && (button3.hidden==YES) && (button4.hidden==YES) && (button5.hidden==YES))  {
         [button6 setHidden:YES];
+        
+        // win condition
+        UIViewController *winScreen = [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:Nil] instantiateViewControllerWithIdentifier:@"winScreen"];
+        [self presentViewController:winScreen animated:NO completion:nil];
     }
     else  {
         [button1 setHidden:NO];
@@ -156,17 +158,4 @@ bool paused = NO;
 }
 
 
-
-// function controlling pause
--(void)pauseTap:(id)sender
-{
-    [self.view setBackgroundColor:[UIColor colorWithRed:1 green:0 blue:0 alpha:1]];
-    
-    if(paused == NO)
-    {
-        
-        
-    }
-    
-}
 @end
