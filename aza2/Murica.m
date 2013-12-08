@@ -60,14 +60,14 @@
 -  (void)button1Click:(id)sender
 {
     [[self button1] setHidden:YES];
-    [self performSelector:@selector(buttonAppear:) withObject:button1 afterDelay:10.0];
+    [self performSelector:@selector(buttonAppear:) withObject:button1 afterDelay:5.0];
 }
 
 -  (void)button2Click:(id)sender
 {
     if ((button1.hidden==YES)) {
         [button2 setHidden:YES];
-        [self performSelector:@selector(buttonAppear:) withObject:button2 afterDelay:10.0];
+        [self performSelector:@selector(buttonAppear:) withObject:button2 afterDelay:5.0];
     }
     else  {
         [button2 setHidden:NO];
@@ -79,7 +79,7 @@
 {
     if ((button1.hidden==YES) && (button2.hidden==YES))  {
         [button3 setHidden:YES];
-        [self performSelector:@selector(buttonAppear:) withObject:button3 afterDelay:10.0];
+        [self performSelector:@selector(buttonAppear:) withObject:button3 afterDelay:5.0];
     }
     else  {
         [button1 setHidden:NO];
@@ -92,7 +92,7 @@
 {
     if ((button1.hidden==YES) && (button2.hidden==YES) && (button3.hidden==YES))  {
         [button4 setHidden:YES];
-        [self performSelector:@selector(buttonAppear:) withObject:button4 afterDelay:10.0];
+        [self performSelector:@selector(buttonAppear:) withObject:button4 afterDelay:5.0];
     }
     else  {
         [button1 setHidden:NO];
@@ -106,7 +106,7 @@
 {
     if ((button1.hidden==YES) && (button2.hidden==YES) && (button3.hidden==YES) && (button4.hidden==YES))  {
         [button5 setHidden:YES];
-        [self performSelector:@selector(buttonAppear:) withObject:button5 afterDelay:10.0];
+        [self performSelector:@selector(buttonAppear:) withObject:button5 afterDelay:5.0];
     }
     else  {
         [button1 setHidden:NO];
@@ -121,7 +121,7 @@
 {
     if ((button1.hidden==YES) && (button2.hidden==YES) && (button3.hidden==YES) && (button4.hidden==YES) && (button5.hidden==YES))  {
         [button6 setHidden:YES];
-        [self performSelector:@selector(buttonAppear:) withObject:button6 afterDelay:10.0];
+        [self performSelector:@selector(buttonAppear:) withObject:button6 afterDelay:5.0];
     }
     else  {
         [button1 setHidden:NO];
