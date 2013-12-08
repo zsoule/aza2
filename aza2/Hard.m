@@ -17,6 +17,7 @@
 
 int buttonNum = 10;
 
+
 UIButton *button1;
 UIButton *button2;
 UIButton *button3;
