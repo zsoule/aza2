@@ -33,6 +33,7 @@
 		1489D1D2184FA037003208F9 /* abstract.png in Resources */ = {isa = PBXBuildFile; fileRef = 1489D1D1184FA037003208F9 /* abstract.png */; };
 		14AED2E6184FAE070041DEA3 /* darkBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 14AED2E5184FAE070041DEA3 /* darkBlue.png */; };
 		14FDF8171854D16100C14B51 /* hardButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FDF8161854D16100C14B51 /* hardButton.png */; };
+		14FDF8191854D30C00C14B51 /* Background_Image_Citations.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 14FDF8181854D30C00C14B51 /* Background_Image_Citations.rtf */; };
 		FA5BF7B71853CAF9004E3A21 /* germany-flag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5BF7B61853CAF9004E3A21 /* germany-flag.jpg */; };
 		FA5BF7B91853CBE2004E3A21 /* uk-flag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5BF7B81853CBE2004E3A21 /* uk-flag.jpg */; };
 		FA5BF7BB1853CCAB004E3A21 /* Spanish-Flag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5BF7BA1853CCAB004E3A21 /* Spanish-Flag.jpg */; };
@@ -89,6 +90,7 @@
 		1489D1D1184FA037003208F9 /* abstract.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = abstract.png; path = ../../abstract.png; sourceTree = "<group>"; };
 		14AED2E5184FAE070041DEA3 /* darkBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = darkBlue.png; path = ../../darkBlue.png; sourceTree = "<group>"; };
 		14FDF8161854D16100C14B51 /* hardButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hardButton.png; sourceTree = "<group>"; };
+		14FDF8181854D30C00C14B51 /* Background_Image_Citations.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Background_Image_Citations.rtf; sourceTree = "<group>"; };
 		FA5BF7B61853CAF9004E3A21 /* germany-flag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "germany-flag.jpg"; sourceTree = "<group>"; };
 		FA5BF7B81853CBE2004E3A21 /* uk-flag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "uk-flag.jpg"; sourceTree = "<group>"; };
 		FA5BF7BA1853CCAB004E3A21 /* Spanish-Flag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spanish-Flag.jpg"; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 				144EC97F1850343A00A45865 /* pause.png */,
 				144EC9841850465F00A45865 /* HeavyHunter.mp3 */,
 				144ECC321850740F00A45865 /* HeavyHunter.wav */,
+				14FDF8181854D30C00C14B51 /* Background_Image_Citations.rtf */,
 				1489D1B4184FA016003208F9 /* Images.xcassets */,
 				1489D1A0184FA016003208F9 /* Supporting Files */,
 			);
@@ -312,6 +315,7 @@
 				FA5BF7C31853CF5A004E3A21 /* American_Flag.jpg in Resources */,
 				14AED2E6184FAE070041DEA3 /* darkBlue.png in Resources */,
 				144EC9801850343A00A45865 /* pause.png in Resources */,
+				14FDF8191854D30C00C14B51 /* Background_Image_Citations.rtf in Resources */,
 				FA5BF7BB1853CCAB004E3A21 /* Spanish-Flag.jpg in Resources */,
 				148415ED1850784900A3FE07 /* circlefilled.png in Resources */,
 				1489D1D2184FA037003208F9 /* abstract.png in Resources */,
