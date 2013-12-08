@@ -43,9 +43,7 @@ UIButton *button10;
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
-    NSLog(@"Hey There");
-    
+        
     // for positioning
     CGRect screenSize = [[UIScreen mainScreen] bounds];
     CGFloat screenWidth = screenSize.size.height;

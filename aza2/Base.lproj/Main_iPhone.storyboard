@@ -155,57 +155,85 @@
                                     <segue destination="6C9-li-N5I" kind="modal" id="NON-W2-zcK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3S8-cd-KOA">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3S8-cd-KOA">
                                 <rect key="frame" x="458" y="5" width="103" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="KRk-IB-xUw"/>
+                                    <constraint firstAttribute="height" constant="55" id="Mae-cf-zoS"/>
+                                </constraints>
                                 <state key="normal" title="Deutschland" backgroundImage="germany-flag.jpg">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9KN-Fe-WQm">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9KN-Fe-WQm">
                                 <rect key="frame" x="458" y="123" width="103" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="j4Q-qs-l17"/>
+                                    <constraint firstAttribute="width" constant="103" id="vtV-RZ-UQb"/>
+                                </constraints>
                                 <state key="normal" title="España" backgroundImage="Spanish-Flag.jpg">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTu-nf-sh4">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTu-nf-sh4">
                                 <rect key="frame" x="9" y="57" width="94" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="94" id="K9e-yU-r0v"/>
+                                    <constraint firstAttribute="height" constant="49" id="ibw-Mn-6po"/>
+                                </constraints>
                                 <state key="normal" title="Australia" backgroundImage="AustFlag__38704.jpg">
                                     <color key="titleColor" red="1" green="0.9839373911" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hzl-DM-PVB">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hzl-DM-PVB">
                                 <rect key="frame" x="9" y="114" width="94" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="eou-aE-GLF"/>
+                                    <constraint firstAttribute="width" constant="94" id="kEb-CD-Kfc"/>
+                                </constraints>
                                 <state key="normal" title="France" backgroundImage="french_flag.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDy-jD-E10">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDy-jD-E10">
                                 <rect key="frame" x="9" y="171" width="94" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="94" id="AKx-XJ-V4l"/>
+                                    <constraint firstAttribute="height" constant="55" id="ofm-LA-2Sv"/>
+                                </constraints>
                                 <state key="normal" title="Canada, eh?" backgroundImage="Canadian-Flag.jpg">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kkm-it-Rum">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kkm-it-Rum">
                                 <rect key="frame" x="181" y="208" width="240" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="106" id="M7m-2d-0AF"/>
+                                    <constraint firstAttribute="width" constant="240" id="Ruh-P6-88Q"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                 <state key="normal" title="'Murica" backgroundImage="American_Flag.jpg">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kmD-Sy-xUO">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kmD-Sy-xUO">
                                 <rect key="frame" x="458" y="66" width="103" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="8f1-IZ-cE4"/>
+                                    <constraint firstAttribute="height" constant="49" id="wgH-8A-kXC"/>
+                                </constraints>
                                 <state key="normal" title="The UK" backgroundImage="uk-flag.jpg">
                                     <color key="titleColor" red="1" green="0.9839373911" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -213,6 +241,23 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="9KN-Fe-WQm" secondAttribute="trailing" constant="7" id="0M5-SB-Zzu"/>
+                            <constraint firstItem="FDy-jD-E10" firstAttribute="leading" secondItem="wtn-xI-vQR" secondAttribute="leading" constant="9" id="2o7-g2-cHh"/>
+                            <constraint firstItem="kmD-Sy-xUO" firstAttribute="top" secondItem="p3I-N8-iO9" secondAttribute="bottom" constant="66" id="BJ9-wE-eU5"/>
+                            <constraint firstItem="QTu-nf-sh4" firstAttribute="leading" secondItem="wtn-xI-vQR" secondAttribute="leading" constant="9" id="JmA-5W-8yT"/>
+                            <constraint firstAttribute="trailing" secondItem="3S8-cd-KOA" secondAttribute="trailing" constant="7" id="X1y-1J-pRL"/>
+                            <constraint firstItem="QTu-nf-sh4" firstAttribute="top" secondItem="p3I-N8-iO9" secondAttribute="bottom" constant="57" id="X3B-Ty-FWz"/>
+                            <constraint firstItem="s5g-aK-KZw" firstAttribute="top" secondItem="kkm-it-Rum" secondAttribute="bottom" constant="6" id="aWc-iV-5DZ"/>
+                            <constraint firstItem="kkm-it-Rum" firstAttribute="leading" secondItem="wtn-xI-vQR" secondAttribute="leading" constant="181" id="afi-Y3-8cG"/>
+                            <constraint firstItem="Hzl-DM-PVB" firstAttribute="leading" secondItem="wtn-xI-vQR" secondAttribute="leading" constant="9" id="ggM-BC-rz5"/>
+                            <constraint firstItem="FDy-jD-E10" firstAttribute="top" secondItem="p3I-N8-iO9" secondAttribute="bottom" constant="171" id="oJn-gp-C5f"/>
+                            <constraint firstItem="3S8-cd-KOA" firstAttribute="top" secondItem="p3I-N8-iO9" secondAttribute="bottom" constant="5" id="qit-bY-Lma"/>
+                            <constraint firstAttribute="trailing" secondItem="kkm-it-Rum" secondAttribute="trailing" constant="147" id="sbu-sn-L4P"/>
+                            <constraint firstItem="9KN-Fe-WQm" firstAttribute="top" secondItem="p3I-N8-iO9" secondAttribute="bottom" constant="123" id="urc-t0-mIA"/>
+                            <constraint firstItem="Hzl-DM-PVB" firstAttribute="top" secondItem="p3I-N8-iO9" secondAttribute="bottom" constant="114" id="vTf-Eg-hi5"/>
+                            <constraint firstAttribute="trailing" secondItem="kmD-Sy-xUO" secondAttribute="trailing" constant="7" id="xvV-Th-uRy"/>
+                        </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <connections>
@@ -429,6 +474,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="xWU-qE-USO"/>
+        <segue reference="NON-W2-zcK"/>
     </inferredMetricsTieBreakers>
 </document>
