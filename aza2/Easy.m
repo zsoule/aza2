@@ -6,8 +6,6 @@
 //  Copyright (c) 2013 Zack. All rights reserved.
 //
 
-
-#import "button.h"
 #import "Easy.h"
 #import <AVFoundation/AVFoundation.h>
 
